@@ -1,0 +1,6 @@
+<button class="glassy-button"><span>Get started</span></button>
+<button class="glassy-button"><span>Get started</span></button>
+
+<div class="meta">
+  <p>Inspired by <a href="https://dribbble.com/shots/22117329-Glass-Buttons" target="_blank" rel="noopener noreferrer">this Dribbble shot</a> by Patrick Hill</p>
+</div>

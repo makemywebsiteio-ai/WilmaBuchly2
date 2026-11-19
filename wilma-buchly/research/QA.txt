@@ -1,0 +1,39 @@
+CONTROLE - 19 NOVEMBER 2026
+
+Masterprompt volledig gelezen voorafgaand aan ontwerp, inhoudsverfijning en uitbreiding van de animaties. Visuele richting gebaseerd op eigen goud/zandkleurige bronidentiteit, beeldmerk en oorspronkelijke systeemtypografie.
+
+Geslaagd:
+- 73 gegenereerde routes via lokale HTTP-server: 200. Onbekende route: 404.
+- Statische controle: één H1, noindex, bestaande interne link- en assetdoelen; nul ontbrekende bestanden; nul externe afbeeldingen.
+- JavaScript syntaxcontrole met node --check.
+- Negen paginatypen (home, over mij, praktijk, sessies, trajecten, blog, shop, contact, productdetail) in echte browser op 390, 768 en 1440 px: geen horizontale overflow, één H1 en geen geladen kapotte afbeeldingen.
+- Mobiel menu opent; Escape sluit en herstelt focus. Verborgen navigatie staat op hidden/inert. Resizegestuurde menustatus gecontroleerd bij breedtewissels.
+- Lege e-mail: zichtbare foutmelding en focus. Geldig fictief e-mailadres: expliciete melding dat niets verzonden/opgeslagen is. Berichtteller werkt. Geen form-element of verzendingendpoint aanwezig.
+- Productfilter toont passende resultaten; sortering van gefilterde waterflessen oplopend: 27,95 / 34,95 / 36,95 / 37,95. Onbekende zoekterm geeft lege-resultaatmelding.
+- Fotovenster opent, Escape sluit en focus keert terug naar de foto.
+- Animaties pauzeren stopt CSS-beweging; keuze blijft na reload. Hervatten werkt. Snelle herhaalde accordionklikken komen in de bedoelde eindstaat.
+- Scrollreveal bevestigt data-entered; definitieve heading opacity is 1. Geen inhoud vooraf permanent verborgen in CSS.
+- Lokale audioplayer: readyState 4, play/pause schakelen via echte toetsenbordbediening; tijdpositie komt van nul.
+- Geen consolefouten in de geteste homepage-interacties.
+
+Aanwezig maar niet apart via systeeminstelling geëmuleerd:
+- prefers-reduced-motion (CSS plus matchMedia change listener).
+- JavaScript-uitval: alle broninhoud zichtbaar, native details en navigatielinks bruikbaar; testknop blijft disabled; geen form/endpoint. Statisch gecontroleerd, niet via browserinstelling uitgeschakeld.
+
+Externe beperking:
+- De oorspronkelijke Vimeo-video 984964723 laadt na klik; metadata meldt 96,37 seconden. Hercontrole: Player error in de lokale embed, rechtstreeks op player.vimeo.com én in de lokale embed in Google Chrome. De tijdlijn bleef op 0; een gedempte directe test kwam tot 4,14 seconden en viel alsnog uit. Duurzaam afspelen en pauzeren zijn daarom NIET als geslaagd aangemerkt. De directe Vimeo-link blijft beschikbaar. Geen foutlog verzonden. De precieze oorzaak buiten de lokale embed is niet vastgesteld.
+- Boekingen, aankopen en accountacties zijn niet uitgevoerd. Deze bestemmingen gaan herkenbaar naar de oorspronkelijke diensten.
+- Bronclaims, voorraad, prijzen en kwalificaties zijn niet onafhankelijk inhoudelijk bevestigd.
+
+Publicatie:
+- Alleen lokale preview, geen push, geen hostingdeployment en geen wijziging aan klantdomein.
+
+GERICHTE VERVOLGRONDE - SFEER EN VIDEO
+- Masterprompt opnieuw volledig gelezen vóór aanpassingen.
+- Behandelingenblok: zeven lotusbladeren/contouren, zandkleurige gradient, oorspronkelijke lotussignatuur en twee langzaam opkomende gloedlagen.
+- Echte browser op 390, 768, 1440 px: geen horizontale overflow na correctie van de mobiele buitencontour. Visuele controle op alle drie breedtes.
+- Gloed draait in beeld; pauzeknop zet beide lagen op paused. Opacity bleef bij twee opeenvolgende metingen exact 0.14 en 0.539801. Hervatten werkt.
+- Vimeo-embed: opgeschoonde parameters, playsinline, expliciet autoplay=0, standaard play/fullscreen/picture-in-picture-rechten en referrer-policy. Laden en herladen houden één iframe en verplaatsen toetsenbordfocus naar de speler.
+- Toegevoegde herlaadknop getest; instructietekst en directe bronlink blijven zichtbaar. De externe playerfout is hiermee niet opgelost (zie beperking hierboven).
+- Build: 73 pagina’s. Statische check zonder fouten; JavaScript syntaxcontrole geslaagd.
+- Bewijs: screenshots/treatments-desktop.jpg en screenshots/treatments-mobile.jpg.

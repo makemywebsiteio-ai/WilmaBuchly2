@@ -1,0 +1,63 @@
+ANIMATIEONDERZOEK — WILMA BUCHLY
+Onderzocht op 19 november 2026
+Bron: https://freefrontend.com/javascript-animations/
+
+Omvang en betrouwbaarheid
+33 referentiekaarten zijn geïnventariseerd inclusief beschrijving, oorspronkelijke demonstratielink en dependencies in animation-cards.json. Acht gerichte referenties hieronder zijn inhoudelijk beoordeeld. Voor de eerste kaart bevat de collectie volledige HTML/CSS/JS. De /code/ detail-URL’s van de andere gerichte kaarten sturen momenteel door naar het algemene FreeFrontend-overzicht. Hun CodePen-JS was niet bereikbaar (curl 56). Daarom is NIET geclaimd dat hun oorspronkelijke scripts zijn gelezen. Op het bereikbare algemene overzicht zijn acht andere relevante voorbeeldimplementaties met volledige broncode gelezen; het galleryvoorbeeld is tevens de eerste kaart van de opgegeven collectie. Bronextracten staan onder animation-code/*-source-*.txt. HTML met de daadwerkelijke redirectresponse is bewaard onder animation-code/fluid-morphing-list-expansion-2026-02-13.html.
+
+GERICHTE KAARTEN VAN DE OPGEGEVEN COLLECTIE
+1. Draggable Zoom Grid Gallery using GSAP
+   https://codepen.io/filipz/pen/dPGKGOo
+   HTML/CSS/JS daadwerkelijk bekeken. Draggable grid, zoomstaten, gespreide captions, split-detailview, CustomEase. Code maakt custom curves .87,0,.13,1 en .25,.46,.45,.94 met fallback. Duren variëren 0,2–1,2 seconden. Het voorbeeld heeft ook preloader-canvas en audio; die niet overnemen. Dependencies: GSAP, Draggable, InertiaPlugin, CustomEase, Flip. Bruikbaar principe: fotografie soepel in één rustige detailweergave openen; consistente easing, geen schaalvervorming of onnodige invoervertraging.
+2. Mouse-Reactive Floating Image Gallery
+   https://codepen.io/Hyperplexed/pen/VwXXPKJ
+   Kaart en dependency/readout bekeken; script niet bereikbaar. Koppelt beeldposities aan de cursor. Bruikbaar principe: maximaal enkele pixels secundaire beeldreactie, uitsluitend bij fijne pointer. Geen hele pagina laten bewegen.
+3. Cinematic Zoom Blur Image Gallery
+   https://codepen.io/soju22/pen/poboddv
+   Kaart bekeken, script niet bereikbaar. Three.js/GSAP, shadertransition, mouse tracking en smooth lerp. Bruikbaar principe: zachte crossfade/schaalovergang, zonder WebGL of onscherp maken van portretgezichten. Dit is interactiesmoothing, geen verbetering van bronresolutie.
+4. Minimalist Canvas Animated Particle Background
+   https://codepen.io/adrian-ortega/pen/YjqrMw
+   Kaart bekeken, script niet bereikbaar. Procedureel zwevende geometrische lijnen/bubbels; Lodash vermeld. Bruikbaar principe: rustige achtergrondlaag die stopt buiten beeld. Vertaling naar twee of drie bestaande lotusbladachtige CSS/SVG-vormen is passender dan tientallen canvasparticles.
+5. Staggered Particle Blob Effect
+   https://codepen.io/juliangarnier/pen/JojxjwB
+   Kaart bekeken, script niet bereikbaar. AnimeJS, cursortracking, gespreide DOM-deeltjes en blend modes. Bruikbaar principe: lage intensiteit en verschoven timing voor gouden gradientvormen. Geen cursorvolgende wolk of drukke lichtbol op de praktijkwebsite.
+6. Fluid Morphing List Expansion
+   https://codepen.io/GreenSock/pen/NWrNgvp
+   Kaart bekeken, script niet bereikbaar. GSAP Flip, layout morphing, behoud van ruimtelijke continuïteit bij expand/collapse. Bruikbaar principe: de behandelingsomschrijving vanuit dezelfde rij rustig openen; toegankelijke details/summary of button met aria-expanded. Altijd sluitanimatie en snelle klikreeksen correct afhandelen.
+7. Photo Inview Animation: Venetian Blinds Effect
+   https://codepen.io/Zajno/pen/oNyMveg
+   Kaart bekeken, script niet bereikbaar. Gefaseerde beeldonthulling. Bruikbaar principe: eenmalig op verschijnen een kleine translate/opacity overgang; geen stroken die gezichten opdelen. Alle inhoud standaard zichtbaar als JS ontbreekt.
+8. Cinematic Masked Video Hero
+   https://codepen.io/Tiopayo/pen/KKGVWWz
+   Kaart bekeken, script niet bereikbaar. Masked hero-principe, eventueel passend op een bestaande foto. Geen nieuwe video of automatische afspeling introduceren alleen voor dit effect.
+
+AANVULLENDE WERKELIJK GELEZEN BRONCODE
+Deze voorbeelden werden door de bestaande FreeFrontend-detailroutes teruggegeven in het actuele algemene overzicht. Niet verwarren met de scripts van de hierboven onbereikbare oorspronkelijke voorbeelden.
+
+A. Draggable Zoom Grid Gallery — zie 1. Drie bestanden: 3.586 tekens HTML, 12.023 CSS en 44.260 JS. CustomEase en beheerde animatiestaten. Een dergelijke zware complete galerij is niet nodig voor deze site; kleine eigen implementatie volstaat.
+B. Frosted Glass Parallax Button — https://codepen.io/kevinpowell/pen/LYvBZyb
+   HTML/CSS/JS bekeken. mousemove berekent offset vanaf centrum en zet --_x-motion/--_y-motion. Geen framebuffer of easing in JS. Niet letterlijk kopiëren: verplaats de achtergrondvorm, niet het knoplabel; eventdruk beperken en reset bij pointerleave; focusstijl toevoegen.
+C. Luminous Glowing Orb Buttons — https://freefrontend.com/-/2026/2026-09-16-luminous-glowing-orb-buttons-in-css-svg/
+   HTML/CSS bekeken. Radial/linear-gradient plus transformtransitions; floatIn uses cubic-bezier(.16,1,.3,1), hover gebruikt (.2,.8,.2,1). Tekstlabel wordt pas bij hover zichtbaar, outline:none en initial opacity:0: die toegankelijkheidsproblemen niet meenemen. Alleen de samenhangende easing als principe gebruiken.
+D. Expanding CSS Grid Notched Accordion Gallery — https://codepen.io/cbolson/pen/myERJZQ
+   HTML/CSS bekeken. :has(:nth-child(...):hover) past gridkolommen aan, transition:grid 300ms ease-in-out, vaste background-size 450px 100%. Voor onze galerie geen vaste beeldvervorming, geen hover-only selectie en geen decoratieve nummers. Gebruik expliciete knoppen/tabs en object-fit met gecontroleerde uitsneden.
+E. Holographic CSS Project Cards Grid — https://codepen.io/mandynicole/pen/WbxodaK
+   HTML/CSS bekeken. Meerdere gradientlagen, containerqueries en translate/filter/opacity-transitions. 0,3s ease-in-out. Technisch principe: gradient op dezelfde vorm; visueel géén holografie, gestapelde glazen kaarten of zware shadows. Controleer contrast en beperk permanente will-change.
+F. FLIP Drag Snap Floating Popover on GSAP — https://codepen.io/jh3y/pen/raaQzbw
+   HTML/CSS/JS bekeken. getBoundingClientRect, afstandsberekening met Math.hypot, snap threshold, dragResistance en FLIP; defaults proximity120, duration0.35. Dependencies GSAP/Draggable/Flip/InertiaPlugin/Tweakpane. Geen passende functie voor praktijkwebsite, maar nuttig bewijs dat de eindstaat en onderbrekingen expliciet beheerd moeten worden. Voor eenvoudige details geen bibliotheek toevoegen.
+G. Interactive Touch Hover Grid on GSAP — https://codepen.io/jh3y/pen/wBMXOVz
+   HTML/CSS/JS bekeken. Detecteert (hover:none) and (pointer:coarse), zet data-hover op elementFromPoint en wist die bij pointerleave. Het voorbeeld bouwt 200 decoratieve elementen en gebruikt GSAP vooral voor de instellingenwidget. Niet overnemen; touch moet echte klikbediening krijgen en niet hover simuleren.
+H. Advanced Sliding Radio Pill Selector with CSS Anchor — https://codepen.io/jh3y/pen/GgpYZoe
+   HTML/CSS/JS bekeken. Radios, labels, actieve index, SVG-maskers, ResizeObserver en duration 0.2. Dependencies GSAP/Draggable/Tweakpane. Bruikbaar: actieve keuze zichtbaar houden en bij resize geometrie actualiseren; simpele echte tabs met roving tabindex of gewone knoppen zijn hier duidelijker.
+
+CONCREET IMPLEMENTATIEVOORSTEL
+- Één easing-token, bijvoorbeeld cubic-bezier(.22,1,.36,1); knoppen/menu 180–320ms, eenmalig beeldverschijnen 600–800ms.
+- Twee of drie rustige, identieke blad-/lotusvormen in oorspronkelijke zand/goudtinten. Dezelfde SVG-path of border-radius met linear-gradient; beweging 18–26s en amplitudes circa 8–18px. Het beeldmerk zelf niet vervormen.
+- Image smoothing: scherpe eigen bronbestanden, image-rendering:auto, juiste responsive afmetingen, expliciete width/height en decode(); overgang via opacity plus beperkte scale(1.02 naar 1). Geen blur die gebrek aan resolutie verbergt.
+- Praktijkgalerie: zichtbare thumbnails, actieve staat, vorige/volgende knoppen waar functioneel, toetsenbordbediening; volledige foto in dialog/lightbox met Escape en terugkerende focus. Crossfade of native WAAPI met annuleren van de vorige animatie bij snel wisselen.
+- Behandelingen/trajecten: zachte expand/collapse met echte semantiek, aria-expanded alleen indien buttonpatroon. Geen inhoud verbergen vóór JS succesvol initialiseert. Reduced motion direct toepassen.
+- Animatiepauze zichtbaar aanbieden. Sla uitsluitend die voorkeur lokaal op. Bij pauze alle lopende WAAPI-animaties finish/cancel naar leesbare eindstaat; CSS animation-play-state:paused. document.visibilitychange en IntersectionObserver pauzeren decoratieve beweging buiten zicht.
+- Toetsen: 390/768/1440px; snelle herhaalde menu-/detailsklikken; focus/Escape; reduced-motion; pauzestand na reload; JS-uitval; alle belangrijke foto-uitsneden.
+
+LICENTIE EN HERKOMST
+Dit onderzoek is geen licentiegoedkeuring. Auteurs en oorspronkelijke URL’s blijven hierboven traceerbaar. Geen complete snippets of demo-assets in de website opnemen zonder vastgestelde gebruikslicentie. De beschreven algemene animatieprincipes kunnen zelfstandig in eigen kleine CSS/JS worden geïmplementeerd.

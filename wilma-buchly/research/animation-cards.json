@@ -1,0 +1,370 @@
+[
+  {
+    "title": "Draggable Zoom Grid Gallery using GSAP",
+    "description": "An elegant, dark editorial photography grid gallery featuring a draggable layout built with GSAP Draggable and InertiaPlugin . The component supports fluid zoom levels (from 30% to 100%), seamless split-screen detail views using Flip , and staggered caption animations. Interactive canvas elements and Web Audio API triggers enrich the experience without compromising on general interface rendering speed.",
+    "source": "https://codepen.io/filipz/pen/dPGKGOo",
+    "detail": "/-/2026/2026-07-14-draggable-zoom-grid-gallery-using-gsap/",
+    "requirements": [
+      "Level Advanced",
+      "Requires gsap.js · draggable.js · inertiaPlugin.js · customEase.js · flip.js",
+      "Browsers Chrome · Edge · Firefox · Safari",
+      "Highlights Inertia Dragging · Smooth Zooming · Split Screen View · Interactive Audio"
+    ]
+  },
+  {
+    "title": "Chromatic Aberration WebGL Sine Wave",
+    "description": "A mesmerizing WebGL background effect rendering a glowing, undulating sine wave. Built with Three.js and custom GLSL shaders, the script calculates pixel coordinates to generate a continuous mathematical wave. The fragment shader applies a radial distortion multiplier to separate the red, green, and blue color channels, resulting in a dynamic chromatic aberration effect that shifts over time.",
+    "source": "https://codepen.io/Web_yuki1027/pen/yLgYpWM",
+    "detail": "/-/2026/2026-06-24-chromatic-aberration-webgl-sine-wave/",
+    "requirements": [
+      "Level Advanced",
+      "Requires three.js",
+      "Browsers Chrome 9+ · Edge 12+ · Firefox 4+ · Safari 5.1+",
+      "Highlights GLSL Shaders · Chromatic Aberration · Math Animation"
+    ]
+  },
+  {
+    "title": "VisionOS Hexagonal App Grid Ripple",
+    "description": "VisionOS Hexagonal App Grid Ripple recreates the spatial UI aesthetic of Apple VisionOS. It uses complex clip-path polygons to form the hexagons and backdrop-filter for the glassmorphism effect. The standout feature is the JavaScript-calculated ripple animation: on click, JS measures the distance from the target to every other hexagon, updating a CSS custom property ( --ripple-factor ) to stagger the CSS @keyframes delay radially.",
+    "source": "https://codepen.io/konstantindenerz/pen/poYVOpv",
+    "detail": "/-/2026/2026-06-03-visionos-hexagonal-app-grid-ripple/",
+    "requirements": [
+      "Level Advanced",
+      "Browsers Chrome 111+ · Edge 111+ · Firefox 113+ · Safari 16.2+",
+      "Highlights Hexagonal Grid · Ripple Animation · Theme Toggle"
+    ]
+  },
+  {
+    "title": "Animated SVG Lasso Selection",
+    "description": "This is an Animated SVG Lasso Selection . It simulates a digital cursor drawing marquee selections around hidden text nodes, triggering organic pop-in animations and complex spatial transforms. Its function is to provide a highly stylized, cinematic narrative intro, demonstrating the intersection of vector graphics and timeline-based JavaScript animation.",
+    "source": "https://codepen.io/chrisgannon/pen/beooVj",
+    "detail": "/code/animated-svg-lasso-selection-2026-05-08/",
+    "requirements": [
+      "Level Advanced",
+      "Requires gsap.js · tweenmax.js · morphSVG.js · drawSVGplugin.js",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights SVG Masking · Path Drawing · Sequential Animation · Timeline Scrubbing"
+    ]
+  },
+  {
+    "title": "Halloween 2.5D Parallax Shader",
+    "description": "This is a Halloween 2.5D Parallax Shader . It utilizes Three.js and custom GLSL shaders to transform a flat 2D image into an interactive, volumetric scene with dynamic lighting, fog, and depth distortion. Its function is to provide a deeply immersive, narrative-driven hero section, elevating static artwork into an interactive spatial environment without requiring full 3D models.",
+    "source": "https://codepen.io/Yakudoo/pen/jegOQd",
+    "detail": "/code/halloween-2-5d-parallax-shader-2026-05-07/",
+    "requirements": [
+      "Level Advanced",
+      "Requires three.js",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Custom Shaders · Depth Mapping · Parallax Effect · Mouse Tracking"
+    ]
+  },
+  {
+    "title": "3D Warp Speed Tunnel",
+    "description": "This is a 3D Warp Speed Tunnel . It renders a four-sided grid tunnel utilizing CSS 3D transforms, through which animated gradient “beams” travel infinitely. Its function is to provide an immersive, spatial background for hero sections or focal cards, establishing a strong sense of velocity and technological depth.",
+    "source": "https://codepen.io/jh3y/pen/poGqQbL",
+    "detail": "/code/3d-warp-speed-tunnel-2026-05-01/",
+    "requirements": [
+      "Level Advanced",
+      "Requires GSAP · dat.gui",
+      "Browsers Chrome 105+ · Edge 105+ · Firefox 110+ · Safari 16.0+",
+      "Highlights 3D Perspective · Particle System · Container Queries · GUI Controls"
+    ]
+  },
+  {
+    "title": "Footstep Cursor Trailer",
+    "description": "This is a Footstep Cursor Trailer . It draws a decaying trail of alternating left and right vector footprints that follow the user’s pointer. Its function is to add a highly stylized, playful layer of interaction to empty background spaces, gamifying the simple act of moving a mouse.",
+    "source": "https://codepen.io/ksenia-k/pen/jOeBjRV",
+    "detail": "/code/footstep-cursor-trailer-2026-04-30/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires GSAP",
+      "Browsers Chrome 51+ · Edge 79+ · Firefox 52+ · Safari 10+",
+      "Highlights Cursor Tracking · SVG Symbols · Dynamic Rotation · Intro Animation"
+    ]
+  },
+  {
+    "title": "Kinetic SVG Parallax Grid Mask",
+    "description": "This is a Kinetic SVG Parallax Grid Mask . It utilizes mathematical cursor tracking to offset a vectorized masking layer, revealing a secondary layer of animated, stepped shapes beneath. Its function is to create a playful, exploratory spatial interaction that rewards user movement without relying on heavy WebGL contexts.",
+    "source": "https://codepen.io/creativeocean/pen/Rwepojx",
+    "detail": "/code/kinetic-svg-parallax-grid-mask-2026-04-30/",
+    "requirements": [
+      "Level Advanced",
+      "Requires GSAP",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 12+",
+      "Highlights Parallax Masking · Cursor Tracking · Turbulence Filter"
+    ]
+  },
+  {
+    "title": "Liquid Puddle Text Reveal",
+    "description": "This is a Liquid Puddle Text Reveal . It transforms standard typographic elements into falling droplets that merge organically into readable words. Its function is to provide a highly stylized, kinetic introduction for hero headlines, replacing standard opacity fades with a physical, fluid simulation.",
+    "source": "https://codepen.io/z10n/pen/poxEgvG",
+    "detail": "/code/liquid-puddle-text-reveal-2026-04-30/",
+    "requirements": [
+      "Level Intermediate",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Gooey Filter · Text Splitting · Staggered Animation"
+    ]
+  },
+  {
+    "title": "Cinematic Masked Video Hero",
+    "description": "This is a Cinematic Masked Video Hero . It layers solid and outlined typography over an SVG-clipped video element to create optical depth. Its function is to immediately capture attention on landing, breaking away from standard rectangular layouts through organic polygon masking and staggered motion.",
+    "source": "https://codepen.io/Tiopayo/pen/KKGVWWz",
+    "detail": "/code/cinematic-masked-video-hero-2026-04-09/",
+    "requirements": [
+      "Level Advanced",
+      "Requires gsap-js",
+      "Browsers Chrome 90+ · Edge 90+ · Firefox 89+ · Safari 15+",
+      "Highlights SVG Masking · Layered Text · Custom Cursor · Intro Loader"
+    ]
+  },
+  {
+    "title": "Interactive Canvas Particle Image Effect",
+    "description": "This is an Interactive Canvas Particle Image Effect . It reconstructs standard raster images using thousands of autonomous floating particles. Its function is to create a highly tactile visual experience that reacts to cursor proximity, morphing colors based on hidden alternate image data to remove the static barrier between user and interface.",
+    "source": "https://codepen.io/dev_loop/pen/Bajvged",
+    "detail": "/code/interactive-canvas-particle-image-effect-2026-03-30/",
+    "requirements": [
+      "Level Advanced",
+      "Requires GSAP",
+      "Browsers Chrome 80+ · Edge 80+ · Firefox 75+ · Safari 13+",
+      "Highlights Particle System · Color Extraction · Hover Reveal"
+    ]
+  },
+  {
+    "title": "Interactive Physics-Based Dot Grid",
+    "description": "This is an Interactive Physics-Based Dot Grid . It transforms a static matrix of circular DOM elements into a reactive, liquid-like surface. Its function is to provide an engaging, high-end visual toy or background element where the dots elastically pull toward the user’s cursor on hover, and dramatically explode outward with gravity-based physics upon clicking.",
+    "source": "https://codepen.io/ZachSaucier/pen/yyLXZqz",
+    "detail": "/code/interactive-physics-based-dot-grid-2026-03-28/",
+    "requirements": [
+      "Level Advanced",
+      "Requires GSAP · Physics2DPlugin",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Pointer Tracking · Elastic Easing · Staggered Animation"
+    ]
+  },
+  {
+    "title": "Mouse-Reactive Floating Image Gallery",
+    "description": "This is a Mouse-Reactive Floating Image Gallery. It places an oversized grid of visual assets behind the viewport, hidden by the overflow. Its function is to provide an immersive, explorative navigation experience where the user’s cursor physically steers the scene across a scattered landscape of content.",
+    "source": "https://codepen.io/Hyperplexed/pen/VwXXPKJ",
+    "detail": "/code/mouse-reactive-floating-image-gallery-2026-03-25/",
+    "requirements": [
+      "Level Intermediate",
+      "Browsers Chrome 36+ · Edge 12+ · Firefox 48+ · Safari 9+",
+      "Highlights Mouse Tracking · Smooth Panning · Hover Reveal · Dynamic Layout"
+    ]
+  },
+  {
+    "title": "Animated SVG Penrose Triangle Loader",
+    "description": "This is an Animated SVG Penrose Triangle Loader . It combines the impossible geometry of the Penrose triangle with a continuous circular spinner to create a hypnotic, high-fidelity loading animation. Its function is to provide a visually stunning and technically impressive waiting state for applications, using SVG filters and GSAP to add depth and motion.",
+    "source": "https://codepen.io/indextwo/pen/Rwpxbgw",
+    "detail": "/code/animated-svg-penrose-triangle-loader-2026-03-23/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires GSAP",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Infinite Rotation · Complex Gradients · SVG Filter Glow · Optical Illusion"
+    ]
+  },
+  {
+    "title": "PixiJS Procedural GLSL Flame",
+    "description": "This is a PixiJS Procedural GLSL Flame . It generates a hyper-realistic, endlessly animating flame entirely through mathematical functions inside a fragment shader. Its function is to provide a high-performance visual effect without relying on video files or sprite sheets, using procedural noise to simulate the chaotic turbulence of a real fire.",
+    "source": "https://codepen.io/osublake/pen/pqNXoq",
+    "detail": "/code/pixijs-procedural-glsl-flame-2026-03-23/",
+    "requirements": [
+      "Level Advanced",
+      "Requires PixiJS",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Fragment Shader · Procedural Noise · Fractal Brownian Motion · Real-time Animation"
+    ]
+  },
+  {
+    "title": "Cinematic Zoom Blur Image Gallery",
+    "description": "This is a Cinematic Zoom Blur Image Gallery. It utilizes custom GLSL fragment shaders and Three.js to create a high-fidelity transition between image textures. Its function is to provide an immersive navigational layer for visual portfolios, where spatial depth and radial blur replace standard linear crossfades.",
+    "source": "https://codepen.io/soju22/pen/poboddv",
+    "detail": "/code/cinematic-zoom-blur-image-gallery-2026-03-19/",
+    "requirements": [
+      "Level Advanced",
+      "Requires Three.js · GSAP",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Shader Transitions · Mouse Tracking · Smooth Lerp · GPU Rendering"
+    ]
+  },
+  {
+    "title": "Minimalist Canvas Animated Particle Background",
+    "description": "The Minimalist Canvas Animated Particle Background is an ambient UI element that generates a field of drifting geometric shapes. It serves as a non-intrusive aesthetic layer for headers or landing pages, providing depth through motion. The system alternates between “bubbles” and spinning “lines” to create a technical yet organic atmosphere.",
+    "source": "https://codepen.io/adrian-ortega/pen/YjqrMw",
+    "detail": "/code/minimalist-canvas-animated-particle-background-2026-03-19/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires Lodash",
+      "Browsers Chrome 36+ · Edge 12+ · Firefox 31+ · Safari 9+",
+      "Highlights Procedural Generation · Particle Recycling · 60FPS Rendering"
+    ]
+  },
+  {
+    "title": "Animated Star Toggle Switch",
+    "description": "This is an Animated Star Toggle Switch. It replaces a standard HTML checkbox with a highly expressive, character-driven micro-interaction. Its function is to provide emotional feedback to a binary choice (like “favorite” or “bookmark”), launching the star into the air where it physically morphs between a sad, grey orb and a happy, bright yellow star.",
+    "source": "https://codepen.io/aaroniker/pen/ExKgrmO",
+    "detail": "/code/animated-star-toggle-switch-2026-03-05/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires GSAP",
+      "Browsers Chrome 55+ · Edge 79+ · Firefox 54+ · Safari 11+",
+      "Highlights GSAP Animation · Clip-path Morphing · Character UI"
+    ]
+  },
+  {
+    "title": "Shattering Image Gallery Transition",
+    "description": "This is a Shattering Image Gallery Transition. It utilizes the WebGL API via Three.js to deconstruct 2D images into a matrix of 3D particles. Its function is to replace standard fade or slide slideshows with a highly cinematic, physics-based explosion effect, transitioning between photographs by blowing the current image apart to reveal the next one underneath.",
+    "source": "https://codepen.io/soju22/pen/zYqNEKp",
+    "detail": "/code/shattering-image-gallery-transition-2026-03-05/",
+    "requirements": [
+      "Level Advanced",
+      "Requires ThreeJS · GSAP",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights WebGL Shaders · Instanced Rendering · Scroll Navigation · Mouse Parallax"
+    ]
+  },
+  {
+    "title": "Staggered Particle Blob Effect",
+    "description": "This is a Staggered Particle Blob Effect. It clusters multiple DOM nodes into a cohesive, glowing entity that tracks cursor movement. Its function is to provide highly organic, procedural background interaction, replacing static canvases with an ecosystem of independent, mathematically linked elements.",
+    "source": "https://codepen.io/juliangarnier/pen/JojxjwB",
+    "detail": "/code/staggered-particle-blob-effect-2026-03-03/",
+    "requirements": [
+      "Level Advanced",
+      "Requires AnimeJS",
+      "Browsers Chrome 79+ · Edge 79+ · Firefox 71+ · Safari 13+",
+      "Highlights Cursor Tracking · Staggered Animation · Auto-simulation · Blend Modes"
+    ]
+  },
+  {
+    "title": "Infinite 3D Poster Scroll Wall",
+    "description": "This is an Infinite 3D Poster Scroll Wall. It constructs a dense, continuous grid of cinematic assets rendered entirely in WebGL. Its function is to provide a visually overwhelming, highly performant “hero” background that automatically fetches live data from an external API and perpetually scrolls along a tilted perspective plane.",
+    "source": "https://codepen.io/photodow/pen/ExMXNrQ",
+    "detail": "/code/infinite-3d-poster-scroll-wall-2026-03-02/",
+    "requirements": [
+      "Level Advanced",
+      "Requires ThreeJS",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights Infinite Scroll · API Integration · WebGL Rendering · Dynamic Textures"
+    ]
+  },
+  {
+    "title": "Isometric 3D Bouncing Cube Animation",
+    "description": "This is an Isometric 3D Bouncing Cube Animation. It utilizes the Zdog.js engine to render a pseudo-3D geometric scene onto a flat HTML Canvas. Its function is to provide an engaging, continuous background animation where a wandering cube paints a trail across a structural grid, adding depth and kinetic energy to otherwise static hero sections.",
+    "source": "https://codepen.io/borntofrappe/pen/eYXRaoR",
+    "detail": "/code/isometric-3d-bouncing-cube-animation-2026-03-02/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires Zdog",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11+",
+      "Highlights 3D Grid · Path Tracking · Canvas Rendering · Isometric View"
+    ]
+  },
+  {
+    "title": "Interactive Download Folder Animation",
+    "description": "This is an Interactive Download Folder Animation. It replaces a static download button with a lively, physics-based micro-interaction. Its function is to provide immediate, satisfying visual confirmation of a user action. The effect drops a new document into a stacked folder, triggering a synchronized elastic bounce across multiple UI layers.",
+    "source": "https://codepen.io/TaminoMartinius/pen/wvMVmKm",
+    "detail": "/code/interactive-download-folder-animation-2026-02-25/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires gsap.js",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 55+ · Safari 11.1+",
+      "Highlights Elastic Bounce · GSAP Choreography · Dynamic DOM Injection · SVG Stacking"
+    ]
+  },
+  {
+    "title": "Interactive Spectral 3D Ghost Effect",
+    "description": "This is an Interactive Spectral 3D Ghost Effect. It utilizes Three.js and custom GLSL shaders to render a dynamic, mouse-tracking entity with analog signal decay. Its function is to serve as an immersive focal point or an interactive background element. The effect effectively bridges direct user input with procedural visual storytelling.",
+    "source": "https://codepen.io/filipz/pen/GgpMOEq",
+    "detail": "/code/interactive-spectral-3d-ghost-effect-2026-02-23/",
+    "requirements": [
+      "Level Advanced",
+      "Requires three.js · tweakpane.js",
+      "Browsers Chrome 80+ · Edge 80+ · Firefox 75+ · Safari 13.1+",
+      "Highlights Cursor Tracking · VHS Glitch · Custom Shaders · Bloom Pass"
+    ]
+  },
+  {
+    "title": "Animated Coffee Cup Sticker",
+    "description": "In the sterile world of web interfaces, a touch of whimsy can be the difference between a user forgetting your site and remembering it with a smile. This snippet isn’t just an animation; it’s a digital sticker with a soul. It brings the static ritual of coffee to life through squash-and-stretch principles, transforming a simple icon into a living character that breathes, reacts, and delights.",
+    "source": "https://codepen.io/noeldelgado/pen/oQaEdX",
+    "detail": "/code/animated-coffee-cup-sticker-2026-02-14/",
+    "requirements": [
+      "Level Advanced",
+      "Requires gsap · morphsvg",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 60+ · Safari 11+",
+      "Highlights SVG Morphing · Character Animation · Timeline Sequencing · Fluid Physics"
+    ]
+  },
+  {
+    "title": "Fluid Morphing List Expansion",
+    "description": "Most interfaces treat layout changes as abrupt cuts in a film — jarring and disconnected. We reject this. UI should behave like matter, conserving momentum and mass. This component demonstrates the “impossible”: animating a flexbox container from a horizontal row to a vertical column seamlessly. It creates a sense of spatial continuity that makes the application feel not like software, but like a living organism adapting to user intent.",
+    "source": "https://codepen.io/GreenSock/pen/NWrNgvp",
+    "detail": "/code/fluid-morphing-list-expansion-2026-02-13/",
+    "requirements": [
+      "Level Advanced",
+      "Requires gsap · flip-plugin",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 60+ · Safari 11+",
+      "Highlights Layout Morphing · FLIP Animation · State Management · Flexbox Transition"
+    ]
+  },
+  {
+    "title": "Interactive Emotional Feedback Slider",
+    "description": "Forms are traditionally cold and utilitarian. This component challenges that norm by injecting emotional intelligence into the user interface. By mapping a range slider to animated character states, we transform a simple data input into a conversation. It turns the abstract concept of “satisfaction” into a relatable, human narrative, encouraging users to engage more deeply with the feedback process.",
+    "source": "https://codepen.io/graphilla/pen/QWQYMXB",
+    "detail": "/code/interactive-emotional-feedback-slider-2026-02-13/",
+    "requirements": [
+      "Level Intermediate",
+      "Requires gsap",
+      "Browsers Chrome 60+ · Edge 79+ · Firefox 60+ · Safari 11+",
+      "Highlights Emotional Feedback · GSAP Timelines · SVG Characters · State Management"
+    ]
+  },
+  {
+    "title": "GSAP SVG Circle Unwrapping Animation",
+    "description": "This GSAP SVG Circle Unwrapping Animation is a masterclass in visual sleight of hand. Instead of mathematically morphing a curved path into a straight line (which often results in distorted, unappealing stroke widths), this component creates a seamless illusion. It splits a circle into two halves and synchronizes their movement with a dynamically generated straight line, making it appear as though the circle is being physically unrolled or “unwrapped” like a ribbon.",
+    "source": "https://codepen.io/PointC/pen/pogVgGO",
+    "detail": "/code/gsap-svg-circle-unwrapping-animation-2026-01-26/",
+    "requirements": [
+      "Level Advanced",
+      "Requires GSAP · DrawSVGPlugin · MotionPathPlugin",
+      "Browsers Chrome 80+ · Edge 80+ · Safari 13+ · Firefox 75+",
+      "Highlights SVG Manipulation · Visual Illusion · Dynamic DOM Generation"
+    ]
+  },
+  {
+    "title": "Photo Inview Animation: Venetian Blinds Effect",
+    "description": "A high-end, editorial-style web design where content appears smoothly and coordinately, creating a sense of premium quality and attention to detail.",
+    "source": "https://codepen.io/Zajno/pen/oNyMveg",
+    "detail": "/-/2025/2025-12-09-photo-inview-animation-venetian-blinds-effect/",
+    "requirements": []
+  },
+  {
+    "title": "Air Balloon Cruise",
+    "description": "A soothing dreamscape scene with smooth, infinite animation resembling a live postcard or a splash screen for a meditation app.",
+    "source": "https://codepen.io/braydoncoyer/pen/NWqYMmV",
+    "detail": "/-/2025/2025-12-07-air-balloon-cruise/",
+    "requirements": []
+  },
+  {
+    "title": "Bongo Cat Codes #2: Jamming",
+    "description": "A playful recreation of the Bongo Cat meme using SVG and GSAP. It features complex timelines coordinating rapid paw movements, a randomized note particle system colored via CSS variables, and a scrolling terminal code effect using drawSVG logic.",
+    "source": "https://codepen.io/carolineartz/pen/qBOEzQa",
+    "detail": "/-/2025/2025-12-07-bongo-cat-codes-2-jamming/",
+    "requirements": []
+  },
+  {
+    "title": "Disney+ Logo Animation",
+    "description": "A cinematic, fluid intro identical to a streaming service splash screen, featuring glow effects, particles, and morphing to create a sense of magic and high-budget production.",
+    "source": "https://codepen.io/chrisgannon/pen/jOPXJqK",
+    "detail": "/-/2025/2025-12-07-disneyplus-logo-animation/",
+    "requirements": []
+  },
+  {
+    "title": "Day and Night Toggle with SVG Animation",
+    "description": "An atmospheric day/night toggle where a minimal JavaScript classList.toggle trigger activates a cinematic transition across complex SVG layers. The scenery leverages linear-gradient masking and mix-blend-mode for dynamic lighting, while long-duration CSS transform properties orchestrate a seamless, parallax-like shift between solar and lunar states.",
+    "source": "https://codepen.io/TurkAysenur/pen/bGawdKv",
+    "detail": "/-/2025/2025-11-20-day-and-night-toggle-with-svg-animation/",
+    "requirements": []
+  }
+]

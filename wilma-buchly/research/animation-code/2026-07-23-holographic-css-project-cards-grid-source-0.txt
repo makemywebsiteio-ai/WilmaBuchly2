@@ -1,0 +1,103 @@
+<header class="settings">
+  <fieldset id="color-scheme">
+    <label for="system" tabindex="0">
+      <input id="system" type="radio" name="theme" value="system" checked="checked"/>				<span>Sys</span>
+    </label>
+    <label for="light" tabindex="0">
+      <input id="light" type="radio" name="theme" value="light"/>				<span>Light</span>
+    </label>
+    <label for="dark" tabindex="0">
+      <input id="dark" type="radio" name="theme" value="dark"/>				<span>Dark</span>
+    </label>
+    <label for="holo" tabindex="0">
+      <input id="holo" type="checkbox" name="theme" value="holo" checked="checked"/>				<span>Holo</span>
+    </label>
+  </fieldset>
+</header>
+<div class="project-container">
+  <div class="project project--3 full">
+    <div class="preview-container">
+      <picture tabindex="0">
+        <div class="bg red" alt="fakeCap"></div>
+      </picture>
+      <picture tabindex="0">
+        <div class="bg blue" alt="fakeCap"></div>
+      </picture>
+      <picture tabindex="0">
+        <div class="bg green" alt="fakeCap"></div>
+      </picture>
+    </div>
+    <div class="content-container">
+      <hgroup>
+        <h1>Project / Client Name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </hgroup>
+      <ul class="tag-container">
+        <li class="tag design">ui/ux</li>
+        <li class="tag design">component library</li>
+        <li class="tag design">product design</li>
+        <li class="tag dev">interactive prototypes</li>
+        <li class="tag dev">html</li>
+        <li class="tag dev">css</li>
+        <li class="tag dev">documentation</li>
+      </ul>
+    </div>
+  </div>
+  <div class="project project--1">
+    <div class="preview-container">
+      <picture tabindex="0">
+        <div class="bg green" alt="fakeCap"></div>
+      </picture>
+      <picture tabindex="0">
+        <div class="bg red" alt="fakeCap"></div>
+      </picture>
+      <picture tabindex="0">
+        <div class="bg blue" alt="fakeCap"></div>
+      </picture>
+    </div>
+    <div class="content-container">
+      <hgroup>
+        <h1>Project / Client Name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </hgroup>
+      <ul class="tag-container">
+        <li class="tag design">ui/ux</li>
+        <li class="tag design">component library</li>
+        <li class="tag design">a11y auditing</li>
+        <li class="tag design">wcag conformance</li>
+        <li class="tag dev">interactive prototyping</li>
+        <li class="tag dev">html</li>
+        <li class="tag dev">css</li>
+        <li class="tag dev">documentation</li>
+      </ul>
+    </div>
+  </div>
+  <div class="project project--2">
+    <div class="preview-container">
+      <picture tabindex="0">
+        <div class="bg blue" alt="fakeCap"></div>
+      </picture>
+      <picture tabindex="0">
+        <div class="bg green" alt="fakeCap"></div>
+      </picture>
+      <picture tabindex="0">
+        <div class="bg red" alt="fakeCap"></div>
+      </picture>
+    </div>
+    <div class="content-container">
+      <hgroup>
+        <h1>Project / Client Name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </hgroup>
+      <ul class="tag-container">
+        <li class="tag design">ui/ux</li>
+        <li class="tag design">component library</li>
+        <li class="tag design">wcag conformance</li>
+        <li class="tag dev">interactive prototyping</li>
+        <li class="tag dev">html</li>
+        <li class="tag dev">css</li>
+        <li class="tag dev">documentation</li>
+      </ul>
+    </div>
+  </div>
+</div>
